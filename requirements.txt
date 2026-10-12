@@ -1,9 +1,0 @@
-streamlit>=1.40
-requests>=2.31
-Authlib>=1.6.9
-
-# Transitive dependency floors (security fixes)
-pyarrow>=14.0.1
-GitPython>=3.1.50
-pillow>=10.3.0
-h11>=0.16.0
