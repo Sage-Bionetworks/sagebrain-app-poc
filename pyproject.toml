@@ -1,0 +1,14 @@
+[project]
+name = "sagebrain-app-poc"
+version = "0.1.0"
+description = "Streamlit POC for the Sage Brain biomedical knowledge graph"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.40",
+    "requests>=2.31",
+    "authlib>=1.6.9",
+]
+
+[tool.uv]
+package = false
