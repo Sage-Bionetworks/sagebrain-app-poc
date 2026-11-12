@@ -2,6 +2,9 @@
 
 Streamlit POC for the [Sage Brain](https://github.com/Sage-Bionetworks-IT/sage-brain-infra) biomedical knowledge graph.
 
+> A React version (Ask + the guided demo, with Synapse OAuth, Docker-ready) lives in
+> [`web/`](web/README.md).
+
 Natural-language interface backed by the Bedrock Strands AI agent (`POST /ask`).
 
 The API endpoint is configured via the sidebar (or environment variable).
